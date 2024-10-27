@@ -6,7 +6,7 @@
 class Melody
 {
 private:
-	std::list<float> notes;
+	std::list<float> noteList;
 	std::list<float>::iterator iter;
 
 public:

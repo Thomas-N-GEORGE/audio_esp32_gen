@@ -2,7 +2,7 @@
 
 Melody::Melody(std::list<float> notes)
 {
-	this->notes = notes;
+	this->noteList = notes;
 }
 
 Melody::~Melody()
@@ -11,13 +11,13 @@ Melody::~Melody()
 
 float Melody::rewind()
 {
-	iter = this->notes.begin();
+	iter = this->noteList.begin();
 	return *iter;
 }
 
 float Melody::getNextNote()
 {
-	if (++iter == this->notes.end())
+	if (++iter == this->noteList.end())
 		return this->rewind();
 	return *iter;
 }
