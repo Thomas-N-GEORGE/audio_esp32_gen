@@ -52,5 +52,6 @@
 // ##### MELODIES #####
 #define C_MAJOR {_C4, _D4, _E4, _F4, _G4, _A4, _B4, _C5}
 #define AU_CLAIR_DE_LA_LUNE {_C5, _C5, _C5, _D5, _E5, _D5, _C5, _E5, _D5, _D5, _C5, _D5, _D5, _D5, _D5, _A4, _A4, _D5, _C5, _B4, _A4, _G4, _C5, _C5, _C5, _D5, _E5, _D5, _C5, _E5, _D5, _D5, _C5}
+#define LA_MARSEILLAISE {_D4, _D4, _D4, _G4, _G4, _A4, _A4, _D5, _B4, _G4, _G4, _B4, _G4, _E4, _C5, _A4, _Fs4, _G4}
 
 #endif
